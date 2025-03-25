@@ -15,7 +15,14 @@
         font-weight: 400;
         font-style: normal;
       }
+      .flex-container {
+        display: flex;
+        flex-direction: column;
+      }
       /* Page Styling */
+      body {
+        background-color: #dad1ff;
+      }
       p {
         font-family: "Lexend Deca", sans-serif;
         font-size: 14px;
@@ -47,15 +54,30 @@
       header {
         background-color: #bfb0ff;
         border: 0px;
-        padding: 10px;
-        margin: 10px;
+        border-radius: 20px;
+        padding-top: auto;
+        padding-bottom: auto;
+        padding-left: unset;
+        padding-right: unset;
+        margin: auto;
+        flex-grow: inherit;
+        width: 100%;
+        height: auto;
+        vertical-align: top;
+        align-content: stretch;
       }
     </style>
   </head>
   <body>
-    <header>
+    <header class="flex-container">
       <h1>Ethan McCausland</h1>
       <p class="subtitle">DevOps Engineering Student</p>
     </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
   </body>
 </html>
