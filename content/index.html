@@ -4,6 +4,7 @@
     <style>
       /* Fonts & Classes for their use */
       @import url('https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&family=Lexend+Deca&display=swap');
+      @import url('https://fonts.cdnfonts.com/css/lemonmilk');
       .lexend-deca-regular {
         font-family: "Lexend Deca", sans-serif;
         font-optical-sizing: auto;
@@ -14,6 +15,9 @@
         font-family: "Cactus Classical Serif", serif;
         font-weight: 400;
         font-style: normal;
+      }
+      .lemonmilk-regular {
+        font-family: "Lemon/Milk", sans-serif;
       }
       .flex-container {
         display: flex;
@@ -29,11 +33,37 @@
         font-size-adjust: inherit;
         color: #000000;
       }
+      p.certification {
+        font-size: 16px;
+        text-align: center;
+        font-size-adjust: inherit;
+      }
+      img.certification {
+        align-content: center;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        height: auto;
+      }
       h1 {
         font-family: "Cactus Classical Serif", serif;
         font-size: 48px;
         font-size-adjust: inherit;
         color: #000000
+      }
+      main > .subtitle {
+        color: #000000;
+        font-weight: bold;
+        font-family: 'Cactus Classical Serif', serif;
+        font-size: 28px;
+        font-size-adjust: inherit;
+        text-align: center;
+        text-decoration: underline;
+      }
+      main > table {
+        background-color: #f0f8ff7f;
+        border-radius: 20px;
       }
       /* Header Styling */
       header > h1 {
@@ -70,14 +100,28 @@
   </head>
   <body>
     <header class="flex-container">
-      <h1>Ethan McCausland</h1>
+      <h1 class="lemonmilk-regular">Ethan McCausland</h1>
       <p class="subtitle">DevOps Engineering Student</p>
     </header>
     <main>
+      <p class="subtitle">Certifications & Credentials</p>
+      <table>
+        <tr>
+          <td>
+            <p class="certification">Fortinet Certified Fundamentals: Cybersecurity</p>
+            <a href="https://www.credly.com/badges/1ffb5113-3908-4ce3-ac8e-1a66c932f72f/public_url"><img src="./images/fcf.png" class="certification" width="200" height="200" alt="Fortinet FCF Badge"></a>
+          </td>
+          <td>
 
+          </td>
+        </tr>
+      </table>
     </main>
     <footer>
-
+      <div id="attributionStatement">
+        <p xmlns:cc="http://creativecommons.org/ns#" >This work by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/emcc9601">Ethan McCausland</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
+      </div>
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="./images/cc-by-sa banner.svg" width="120" height="42" alt="CC-BY-SA 4.0 License Banner"></a>
     </footer>
   </body>
 </html>
