@@ -64,6 +64,8 @@
       main > table {
         background-color: #f0f8ff7f;
         border-radius: 20px;
+        margin: auto;
+        text-align: center;
       }
       /* Header Styling */
       header > h1 {
@@ -96,6 +98,27 @@
         vertical-align: top;
         align-content: stretch;
       }
+      /* Footer Styling */
+      div#preFooter > hr {
+        border-top: #000000 solid 5px;
+      }
+      footer {
+        background-color: #f0f8ff7f;
+        margin: auto;
+        text-align: center;
+        border: 0px;
+        border-radius: 20px;
+        padding-top: auto;
+        padding-bottom: auto;
+        padding-left: unset;
+        padding-right: unset;
+        margin: auto;
+        flex-grow: inherit;
+        width: 100%;
+        height: auto;
+        vertical-align: bottom;
+        align-content: stretch;
+      }
     </style>
   </head>
   <body>
@@ -112,16 +135,22 @@
             <a href="https://www.credly.com/badges/1ffb5113-3908-4ce3-ac8e-1a66c932f72f/public_url"><img src="./images/fcf.png" class="certification" width="200" height="200" alt="Fortinet FCF Badge"></a>
           </td>
           <td>
-
+            <p class="certification">Fortinet: Introduction to the Threat Landscape v2.0</p>
+            <a href="https://www.credly.com/badges/7a6fa3bb-7e76-420a-9318-23bbea96e005/public_url"><img src="./images/introduction-to-the-threat-landscape-2-0.png" class="certification" width="200" height="200" alt="Fortinet: Introduction to the Threat Landscape 2.0 Badge"></a>
           </td>
         </tr>
       </table>
     </main>
-    <footer>
+    <div id="preFooter">
+      <br>
+      <hr>
+      <br>
+    </div>
+    <footer class="flex-container">
       <div id="attributionStatement">
         <p xmlns:cc="http://creativecommons.org/ns#" >This work by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/emcc9601">Ethan McCausland</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
       </div>
-      <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="./images/cc-by-sa banner.svg" width="120" height="42" alt="CC-BY-SA 4.0 License Banner"></a>
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="./images/cc-by-sa banner.svg" width="120" height="42" alt="CC-BY-SA 4.0 License Banner" id="licenseBanner"></a>
     </footer>
   </body>
 </html>
