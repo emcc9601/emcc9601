@@ -1,0 +1,117 @@
+      /* Fonts & Classes for their use */
+      @import url('https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&family=Lexend+Deca&display=swap');
+      @import url('https://fonts.cdnfonts.com/css/lemonmilk');
+      .lexend-deca-regular {
+        font-family: "Lexend Deca", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .cactus-classical-serif-regular {
+        font-family: "Cactus Classical Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .lemonmilk-regular {
+        font-family: "Lemon/Milk", sans-serif;
+      }
+      .flex-container {
+        display: flex;
+        flex-direction: column;
+      }
+      /* Page Styling */
+      body {
+        background-color: #dad1ff;
+      }
+      p {
+        font-family: "Lexend Deca", sans-serif;
+        font-size: 14px;
+        font-size-adjust: inherit;
+        color: #000000;
+      }
+      p.certification {
+        font-size: 16px;
+        text-align: center;
+        font-size-adjust: inherit;
+      }
+      img.certification {
+        align-content: center;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        height: auto;
+      }
+      h1 {
+        font-family: "Cactus Classical Serif", serif;
+        font-size: 48px;
+        font-size-adjust: inherit;
+        color: #000000
+      }
+      main > .subtitle {
+        color: #000000;
+        font-weight: bold;
+        font-family: 'Cactus Classical Serif', serif;
+        font-size: 28px;
+        font-size-adjust: inherit;
+        text-align: center;
+        text-decoration: underline;
+      }
+      main > table {
+        background-color: #f0f8ff7f;
+        border-radius: 20px;
+        margin: auto;
+        text-align: center;
+      }
+      /* Header Styling */
+      header > h1 {
+        color: #000000;
+        font-weight: bolder;
+        font-size-adjust: inherit;
+        text-align: center;
+        border: 0px;
+      }
+      header > .subtitle {
+        font-family: "Lexend Deca", sans-serif;
+        font-size: 36px;
+        font-size-adjust: inherit;
+        color: #ffffff;
+        text-align: center;
+        border: 0px;
+      }
+      header {
+        background-color: #bfb0ff;
+        border: 0px;
+        border-radius: 20px;
+        padding-top: auto;
+        padding-bottom: auto;
+        padding-left: unset;
+        padding-right: unset;
+        margin: auto;
+        flex-grow: inherit;
+        width: 100%;
+        height: auto;
+        vertical-align: top;
+        align-content: stretch;
+      }
+      /* Footer Styling */
+      div#preFooter > hr {
+        border-top: #000000 solid 5px;
+      }
+      footer {
+        background-color: #f0f8ff7f;
+        margin: auto;
+        text-align: center;
+        border: 0px;
+        border-radius: 20px;
+        padding-top: auto;
+        padding-bottom: auto;
+        padding-left: unset;
+        padding-right: unset;
+        margin: auto;
+        flex-grow: inherit;
+        width: 100%;
+        height: auto;
+        vertical-align: bottom;
+        align-content: stretch;
+      }
