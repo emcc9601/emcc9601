@@ -1,14 +1,9 @@
       /* Fonts & Classes for their use */
-      @import url('https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&family=Lexend+Deca&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
       @import url('https://fonts.cdnfonts.com/css/lemonmilk');
       .lexend-deca-regular {
         font-family: "Lexend Deca", sans-serif;
         font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-      }
-      .cactus-classical-serif-regular {
-        font-family: "Cactus Classical Serif", serif;
         font-weight: 400;
         font-style: normal;
       }
@@ -43,7 +38,7 @@
         height: auto;
       }
       h1 {
-        font-family: "Cactus Classical Serif", serif;
+        font-family: "Lemon/Milk", sans-serif;
         font-size: 48px;
         font-size-adjust: inherit;
         color: #000000
@@ -51,7 +46,7 @@
       main > .subtitle {
         color: #000000;
         font-weight: bold;
-        font-family: 'Cactus Classical Serif', serif;
+        font-family: 'Lemon/Milk', sans-serif;
         font-size: 28px;
         font-size-adjust: inherit;
         text-align: center;
@@ -96,7 +91,7 @@
       }
       /* Footer Styling */
       div#preFooter > hr {
-        border-top: #000000 solid 5px;
+        border-top:rgba(0, 0, 0, 0.5) solid 5px;
       }
       footer {
         background-color: #f0f8ff7f;
