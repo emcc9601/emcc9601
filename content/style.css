@@ -29,7 +29,7 @@
         text-align: center;
         font-size-adjust: inherit;
       }
-      img.certification {
+      img.certification, embed.certification {
         align-content: center;
         margin: auto;
         display: flex;
